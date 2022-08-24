@@ -1,0 +1,5 @@
+#!/bin/sh
+cp ~/.zshrc ~/.zshrc.bak
+../pkg-update
+mv ~/.zshrc.bak ~/.zshrc
+exit $?

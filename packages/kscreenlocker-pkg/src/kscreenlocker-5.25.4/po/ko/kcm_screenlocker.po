@@ -1,0 +1,90 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2014, 2015, 2016, 2017, 2018, 2019, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-04-01 00:54+0000\n"
+"PO-Revision-Date: 2020-09-16 19:47+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 19.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: package/contents/ui/Appearance.qml:36
+#, kde-format
+msgctxt "@title"
+msgid "Appearance"
+msgstr "모양"
+
+#: package/contents/ui/Appearance.qml:50
+#, kde-format
+msgid "Wallpaper type:"
+msgstr "배경 그림 종류:"
+
+#: package/contents/ui/main.qml:43
+#, kde-format
+msgid "Lock screen automatically:"
+msgstr "자동으로 화면을 잠글 시간:"
+
+#: package/contents/ui/main.qml:45
+#, kde-format
+msgctxt "First part of sentence \"Automatically after X minutes\""
+msgid "After"
+msgstr "이후"
+
+#: package/contents/ui/main.qml:58
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1분"
+
+#: package/contents/ui/main.qml:71
+#, kde-format
+msgctxt "@option:check"
+msgid "After waking from sleep"
+msgstr "대기 모드에서 깨어난 후"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Allow unlocking without password for:"
+msgstr "암호를 입력하지 않고 잠금 해제 허용:"
+
+#: package/contents/ui/main.qml:90
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1초"
+
+#: package/contents/ui/main.qml:106
+#, kde-format
+msgid "Keyboard shortcut:"
+msgstr "키보드 단축키:"
+
+#: package/contents/ui/main.qml:121
+#, kde-format
+msgid "Appearance:"
+msgstr "모양:"
+
+#: package/contents/ui/main.qml:122
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure..."
+msgstr "설정..."

@@ -1,0 +1,66 @@
+Determining if the include file sys/procctl.h exists failed with the following output:
+Change Dir: /home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f027f/fast && /usr/bin/make  -f CMakeFiles/cmTC_f027f.dir/build.make CMakeFiles/cmTC_f027f.dir/build
+make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f027f.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -fno-common -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wmissing-format-attribute -Wwrite-strings -Werror=implicit-function-declaration  -std=gnu99 -o CMakeFiles/cmTC_f027f.dir/CheckIncludeFile.c.o -c /home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: фатальная ошибка: sys/procctl.h: Нет такого файла или каталога
+    1 | #include <sys/procctl.h>
+      |          ^~~~~~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_f027f.dir/build.make:78: CMakeFiles/cmTC_f027f.dir/CheckIncludeFile.c.o] Ошибка 1
+make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_f027f/fast] Ошибка 2
+
+
+
+Determining if the PROC_TRACE_CTL exist failed with the following output:
+Change Dir: /home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_789cc/fast && /usr/bin/make  -f CMakeFiles/cmTC_789cc.dir/build.make CMakeFiles/cmTC_789cc.dir/build
+make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_789cc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat         -fstack-clash-protection -fcf-protection -fno-common -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wmissing-format-attribute -Wwrite-strings   -std=gnu99 -o CMakeFiles/cmTC_789cc.dir/CheckSymbolExists.c.o -c /home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: фатальная ошибка: sys/procctl.h: Нет такого файла или каталога
+    2 | #include <sys/procctl.h>
+      |          ^~~~~~~~~~~~~~~
+компиляция прервана.
+make[1]: *** [CMakeFiles/cmTC_789cc.dir/build.make:78: CMakeFiles/cmTC_789cc.dir/CheckSymbolExists.c.o] Ошибка 1
+make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_789cc/fast] Ошибка 2
+
+
+File /home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/procctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PROC_TRACE_CTL
+  return ((int*)(&PROC_TRACE_CTL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_57595/fast && /usr/bin/make  -f CMakeFiles/cmTC_57595.dir/build.make CMakeFiles/cmTC_57595.dir/build
+make[1]: вход в каталог «/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_57595.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -fno-common -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wmissing-format-attribute -Wwrite-strings -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=getpassphrase -std=gnu99 -o CMakeFiles/cmTC_57595.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_57595
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57595.dir/link.txt --verbose=1
+/usr/bin/cc -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -fno-common -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wmissing-format-attribute -Wwrite-strings -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=getpassphrase -Wl,--enable-new-dtags -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now  CMakeFiles/cmTC_57595.dir/CheckFunctionExists.c.o -o cmTC_57595 
+/usr/bin/ld: CMakeFiles/cmTC_57595.dir/CheckFunctionExists.c.o: в функции «main»:
+CheckFunctionExists.c:(.text.startup+0x11): неопределённая ссылка на «getpassphrase»
+collect2: ошибка: выполнение ld завершилось с кодом возврата 1
+make[1]: *** [CMakeFiles/cmTC_57595.dir/build.make:99: cmTC_57595] Ошибка 1
+make[1]: выход из каталога «/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_57595/fast] Ошибка 2
+
+
+

@@ -1,0 +1,35 @@
+#!/bin/bash
+
+echo "Updating repo..."
+rm kawaii.db
+rm kawaii.db*.sig
+rm kawaii.db.tar.gz
+rm kawaii.files
+rm kawaii.files*.sig
+rm kawaii.files.tar.gz
+
+echo "repo-add"
+repo-add --verify --sign kawaii.db.tar.gz *.pkg.tar.zst
+
+
+if [ $? -eq 0 ]
+then
+    echo "Repo updated successfully!"
+else
+    echo "Error! Could not update repo" >&2
+fi
+
+rm kawaii.db
+rm kawaii.files
+rm kawaii.files.sig
+rm kawaii.db.sig
+cp kawaii.db.tar.gz kawaii.db
+cp kawaii.files.tar.gz kawaii.files
+cp kawaii.files.tar.gz.sig kawaii.files.sig
+cp kawaii.db.tar.gz.sig kawaii.db.sig
+
+git add --all
+echo -n "Enter comment: "
+read COMMENT
+git commit -m "\"$COMMENT\""
+git push https://github.com/LeonidPilyugin/kawaii-repo

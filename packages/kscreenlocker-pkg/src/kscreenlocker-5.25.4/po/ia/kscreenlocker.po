@@ -1,0 +1,103 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Giovanni Sora <g.sora@tiscali.it>, 2012, 2017, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-17 00:46+0000\n"
+"PO-Revision-Date: 2022-05-23 22:15+0200\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.04.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Giovanni Sora"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "g.sora@tiscali.it"
+
+#: abstractlocker.cpp:53
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock it either ConsoleKit or LoginD is needed, neither\n"
+"of which could be found on your system."
+msgstr ""
+"Le blocator de schermo (screenlocker) es rupte e non es plus possibile\n"
+" disblocar. Pro disblocar lo il necessita o ConsoleKit o LoginD, necun del\n"
+"qual poteva esser trovate sur tu systema."
+
+#: abstractlocker.cpp:57
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F%1),\n"
+"log in as root and execute the command:\n"
+"\n"
+"# ck-unlock-session <session-name>\n"
+"\n"
+msgstr ""
+"Le blocator de schermo (screen locker) es rupte e non es plus possibile\n"
+"disblocar. Pro disblocar tu commuta a un terminal virtual (p.ex. Ctrl+Alt+F"
+"%1),\n"
+"tu accede como administrator (root) e executa le commando:\n"
+"\n"
+"# ck-unlock-session <session-name>\n"
+"\n"
+
+#: abstractlocker.cpp:62
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F%1),\n"
+"log in and execute the command:\n"
+"\n"
+"loginctl unlock-session %2\n"
+"\n"
+"Then log out of the virtual session by pressing Ctrl+D, and switch\n"
+"back to the running session (Ctrl+Alt+F%3)."
+msgstr ""
+"Le blocator de schermo es rupte e non es plus possibile disblocar lo.\n"
+"Per poter disblocar commuta a un terminal virttual (ex. Ctrl+Alt+F%1),\n"
+"accede e executa le commando:\n"
+"\n"
+"loginctl unlock-session %2\n"
+"\n"
+"Postea abandona le session virtual per pressar Ctrl-D, e commuta\n"
+"de novo al session executante (Ctrl+Alt+F%3)."
+
+#: ksldapp.cpp:177
+#, kde-format
+msgid "Lock Session"
+msgstr "Bloca session"
+
+#: ksldapp.cpp:404
+#, kde-format
+msgid "Screen locked"
+msgstr "Schermo blocate"
+
+#: ksldapp.cpp:563
+#, kde-format
+msgid "Screen unlocked"
+msgstr "Schermo disblocate"
+
+#: logind.cpp:175
+#, kde-format
+msgid "Screen Locker"
+msgstr "Blocator de schermo"
+
+#: logind.cpp:175
+#, kde-format
+msgid "Ensuring that the screen gets locked before going to sleep"
+msgstr "Assecurar que le schermo deveni blocate ante andar a dormir"

@@ -1,0 +1,102 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2012, 2014, 2015, 2017, 2018, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-17 00:46+0000\n"
+"PO-Revision-Date: 2022-04-24 11:17+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stefan Asserhäll"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "stefan.asserhall@bredband.net"
+
+#: abstractlocker.cpp:53
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock it either ConsoleKit or LoginD is needed, neither\n"
+"of which could be found on your system."
+msgstr ""
+"Skärmlåsningen är sönder och det är inte längre möjligt att låsa upp den.\n"
+"För att låsa upp behövs antingen ConsoleKit eller LoginD. Ingen av dessa\n"
+"gick att hitta på systemet."
+
+#: abstractlocker.cpp:57
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F%1),\n"
+"log in as root and execute the command:\n"
+"\n"
+"# ck-unlock-session <session-name>\n"
+"\n"
+msgstr ""
+"Skärmlåsningen är sönder och det är inte längre möjligt att låsa upp den.\n"
+"För att låsa upp, byt till en virtuell terminal (t.ex. Ctrl+Alt+F%1),\n"
+"logga in som systemadministratör och kör kommandot:\n"
+"\n"
+"# ck-unlock-session <sessionsnamn>\n"
+"\n"
+
+#: abstractlocker.cpp:62
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F%1),\n"
+"log in and execute the command:\n"
+"\n"
+"loginctl unlock-session %2\n"
+"\n"
+"Then log out of the virtual session by pressing Ctrl+D, and switch\n"
+"back to the running session (Ctrl+Alt+F%3)."
+msgstr ""
+"Skärmlåsningen är sönder och det är inte längre möjligt att låsa upp den.\n"
+"För att låsa upp, byt till en virtuell terminal (t.ex. Ctrl+Alt+F%1),\n"
+"logga in och kör kommandot:\n"
+"\n"
+"loginctl unlock-session %2\n"
+"\n"
+"Logga därefter ut från den virtuella sessionen genom att trycka på Ctrl+D, "
+"och byt tillbaka till sessionen som kör (Ctrl+Alt+F%3)."
+
+#: ksldapp.cpp:177
+#, kde-format
+msgid "Lock Session"
+msgstr "Lås session"
+
+#: ksldapp.cpp:404
+#, kde-format
+msgid "Screen locked"
+msgstr "Skärm låst"
+
+#: ksldapp.cpp:563
+#, kde-format
+msgid "Screen unlocked"
+msgstr "Skärm upplåst"
+
+#: logind.cpp:175
+#, kde-format
+msgid "Screen Locker"
+msgstr "Skärmlåsning"
+
+#: logind.cpp:175
+#, kde-format
+msgid "Ensuring that the screen gets locked before going to sleep"
+msgstr "Försäkra att skärmen låses innan viloläge aktiveras"

@@ -1,0 +1,16 @@
+#!/bin/sh
+../pkg-update
+EXIT=$?
+for f in `ls`
+do
+    if [[ "$f" != "update" && "$f" != "PKGBUILD" ]];
+    then
+        if [[ -f $f ]]; then
+            rm $f
+        elif [[ -d $f ]]; then
+            rm -rf $f
+        fi
+    fi
+done
+exit $EXIT
+

@@ -1,0 +1,16 @@
+# Maintainer: Leonid Pilyugin  <l.pilyugin04@gmail.com>
+
+pkgname=kawaii-look-and-feel
+pkgver=1.0
+pkgrel=1
+pkgdesc='Kawaii look-and-feel.'
+arch=('x86_64')
+license=('GPL3')
+groups=('kawaii')
+
+package() {
+    dir=$pkgdir/usr/share/plasma/look-and-feel
+    install -dm755 $dir
+    cp -r $srcdir/* $dir
+}
+

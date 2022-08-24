@@ -1,0 +1,19 @@
+#!/bin/sh
+
+cd packages
+
+for line in `find -name "*-pkg"`
+do
+    cd $line
+    ./update
+    if [ $? -eq 0 ]
+    then
+        cd ..
+    else
+        echo "Error $? in" $line >&2
+        exit $?
+    fi
+done
+
+cd ../x86_64
+./update

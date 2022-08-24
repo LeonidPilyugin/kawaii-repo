@@ -1,0 +1,4 @@
+#!/bin/sh
+./kscreenlocker_greet_exec
+dm-tool lock
+#dm-tool switch-to-greeter
