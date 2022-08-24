@@ -1,6 +1,0 @@
-#define HAVE_SYS_PRCTL_H 1
-#define HAVE_PR_SET_DUMPABLE 1
-#define HAVE_SYS_PROCCTL_H 0
-#define HAVE_PROC_TRACE_CTL 0
-#define HAVE_SIGNALFD_H 0
-#define HAVE_EVENT_H 0

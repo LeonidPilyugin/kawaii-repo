@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libsettings.a CMakeFiles/settings.dir/settings_autogen/mocs_compilation.cpp.o CMakeFiles/settings.dir/kscreensaversettings.cpp.o CMakeFiles/settings.dir/lnf_integration.cpp.o CMakeFiles/settings.dir/wallpaper_integration.cpp.o CMakeFiles/settings.dir/appearancesettings.cpp.o CMakeFiles/settings.dir/kscreensaversettingsbase.cpp.o
-/usr/bin/ranlib ../lib/libsettings.a

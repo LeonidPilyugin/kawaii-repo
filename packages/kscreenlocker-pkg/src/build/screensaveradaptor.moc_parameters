@@ -1,9 +1,0 @@
--I/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build
--I/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/kscreenlocker-5.25.4
--I/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build
--D_GNU_SOURCE
--D_LARGEFILE64_SOURCE
--DTRANSLATION_DOMAIN="kscreenlocker"
--o
-/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/screensaveradaptor.moc
-/home/leonid/github.com/LeonidPilyugin/kawaii-repo/packages/kscreenlocker-pkg/src/build/screensaveradaptor.h
