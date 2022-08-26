@@ -1,0 +1,17 @@
+# Maintainer: Leonid Pilyugin  <l.pilyugin04@gmail.com>
+
+pkgname=kawaii-color-schemes
+pkgver=1.0
+pkgrel=1
+pkgdesc='Kawaii color schemes for KDE.'
+arch=('x86_64')
+license=('GPL3')
+groups=('kawaii')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/LeonidPilyugin/kawaii-color-schemes/releases/download/v$pkgver/color-schemes.tar.gz")
+sha256sums=('58829ca35fdd75264353e2d928e206072448c71a63c4a4052e8ddbb6f4f4a1b9')
+
+package() {
+    dir=$pkgdir/usr/share/color-schemes
+    install -dm755 $dir
+    cp -r $srcdir/color-schemes/* $dir
+}
