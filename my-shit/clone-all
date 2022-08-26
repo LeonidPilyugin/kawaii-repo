@@ -1,0 +1,23 @@
+#!/bin/sh
+git clone https://aur.archlinux.org/anime4k.git
+git clone https://aur.archlinux.org/echowo.git
+git clone https://aur.archlinux.org/hakuneko-desktop.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-calamares.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-color-schemes.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-filesystem.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-konsole.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-kscreenlocker.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-lightdm-themes.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-look-and-feel.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-oh-my-zsh.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-splashes.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-uwufetch.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-wallpapers.git
+git clone --branch=pkg --depth=1 https://github.com/LeonidPilyugin/kawaii-konsole.git
+git clone https://aur.archlinux.org/oh-my-zsh-git.git
+git clone https://aur.archlinux.org/oh-my-zsh-plugin-autosuggestions.git
+git clone https://aur.archlinux.org/oh-my-zsh-plugin-syntax-highlighting.git
+git clone https://aur.archlinux.org/uwu.git
+git clone https://aur.archlinux.org/uwuify.git
+git clone https://aur.archlinux.org/uwupp-git.git
+git clone https://aur.archlinux.org/what-anime-cli-git.git
