@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../kawaii-repo/x86_64
+#cd ../kawaii-repo/x86_64
 
 echo "Updating repo..."
 rm kawaii.db
