@@ -1,20 +1,20 @@
 # Maintainer: Leonid Pilyugin <l.pilyugin04@gmail.com>>
 
 pkgname=kawaii-filesystem
-pkgver=1.0
+pkgver=2023.01.23
 pkgrel=1
 pkgdesc='Base MenheraOS files'
+url='https://github.com/LeonidPilyugin/kawaii-filesystem'
 arch=('x86_64')
-license=('GPL')
+license=('GPL3')
 depends=('iana-etc')
-provides=('filesystem=2021.12.07')
+provides=('filesystem=2022.10.18')
 backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
         'etc/hosts' 'etc/issue' 'etc/ld.so.conf' 'etc/nsswitch.conf'
         'etc/passwd' 'etc/profile' 'etc/resolv.conf' 'etc/securetty'
-        'etc/shadow' 'etc/shells')
-license=('GPL3')
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/LeonidPilyugin/kawaii-filesystem/releases/download/v$pkgver/files.tar.gz")
-sha256sums=('c7b322d488e6c213c93c464a5064052f055e905f12840800a0e7460594ca8dfd')
+        'etc/shadow' 'etc/shells' 'etc/subuid' 'etc/subgid')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
+sha256sums=('d87aa9d814b05bdaff52d7c27655f966ad1a68a7955f6b416af63a3f58448d3d')
 
 package() {
   cd "$pkgdir"
@@ -35,7 +35,7 @@ package() {
   # setup /etc and /usr/share/factory/etc
   install -d etc/{ld.so.conf.d,skel,profile.d} usr/share/factory/etc
   for f in fstab group host.conf hosts issue ld.so.conf nsswitch.conf \
-  passwd resolv.conf securetty shells profile; do
+  passwd resolv.conf securetty shells profile subuid subgid; do
     install -m644 "$srcdir"/$f etc/
     install -m644 "$srcdir"/$f usr/share/factory/etc/
   done
