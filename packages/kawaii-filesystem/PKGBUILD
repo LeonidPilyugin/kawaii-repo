@@ -1,7 +1,7 @@
 # Maintainer: Leonid Pilyugin <l.pilyugin04@gmail.com>>
 
 pkgname=kawaii-filesystem
-pkgver=2023.01.23
+pkgver=2023.10.06
 pkgrel=1
 pkgdesc='Base MenheraOS files'
 url='https://github.com/LeonidPilyugin/kawaii-filesystem'
@@ -14,7 +14,7 @@ backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
         'etc/passwd' 'etc/profile' 'etc/resolv.conf' 'etc/securetty'
         'etc/shadow' 'etc/shells' 'etc/subuid' 'etc/subgid')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
-sha256sums=('d87aa9d814b05bdaff52d7c27655f966ad1a68a7955f6b416af63a3f58448d3d')
+sha256sums=('42bbe98642737c21da37eeb26fe9907b2bcc581f195c8720a0cb255be594c2a3')
 
 package() {
   cd "$pkgdir"
