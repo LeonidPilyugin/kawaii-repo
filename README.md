@@ -1,5 +1,5 @@
 # kawaii-repo
-Kawaii packages from AUR and myself used in MenheraOS (https://github.com/Matiashik/menheraOS) special packages repository
+Kawaii packages from AUR and myself used in [MenheraOS](https://github.com/LeonidPilyugin/menheraOS) special packages repository
 
 To use it, add
 ```
