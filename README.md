@@ -42,3 +42,5 @@ Package list:
 26. [uwu](https://aur.archlinux.org/packages/uwu)
 27. [uwuify](https://aur.archlinux.org/packages/uwuify)
 28. [what-anime-cli-git](https://aur.archlinux.org/packages/what-anime-cli-git)
+29. [mkinitcpio-openswap](https://aur.archlinux.org/packages/mkinitcpio-openswap)
+30. [ckbcomp](https://aur.archlinux.org/packages/ckbcomp)
