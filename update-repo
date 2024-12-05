@@ -33,5 +33,5 @@ cp kawaii.db.tar.gz.sig kawaii.db.sig
 git add --all
 echo -n "Enter comment: "
 read COMMENT
-git commit -m "\"$COMMENT\""
+git commit -m "$COMMENT"
 git push
